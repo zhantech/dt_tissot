@@ -46,5 +46,12 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+
+# Twrp
+-include $(DEVICE_PATH)/twrp/twrp.mk
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
