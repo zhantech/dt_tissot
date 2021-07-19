@@ -12,7 +12,7 @@ include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/tissot
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 514
 
 # Filesystem
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
