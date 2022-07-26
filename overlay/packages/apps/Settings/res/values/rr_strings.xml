@@ -12,4 +12,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="rr_maintainer_summary">ZHANtech™</string>
+
+
+    <!-- Like Octavi -->
+    <string name="stylish_contorl_font_family_subtitle">sans-serif-medium</string>
+    <string name="rom_name">RR Milestone</string>
+    <string name="battery_message">3080 mAh</string>
+    <string name="cpu_message">Octa-core 2.0 GHz</string>
+    <string name="camera_message">12MP+12MP and 5MP</string>
+    <string name="display_message">1080 x 1920, 5,5 inches</string>
+    <string name="rom_message">Adreno 506</string>
+    <string name="soc_message">Snapdragon 625</string>
+
 </resources>
