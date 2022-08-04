@@ -115,7 +115,3 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/tissot/tissot-vendor.mk)
-
-# GCam Go
-PRODUCT_PACKAGES += \
-    GCam
