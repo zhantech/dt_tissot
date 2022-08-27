@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_tissot.mk
+    $(LOCAL_DIR)/cipher_tissot.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_tissot-user \
-    nad_tissot-userdebug \
-    nad_tissot-eng
+    cipher_tissot-user \
+    cipher_tissot-userdebug \
+    cipher_tissot-eng
