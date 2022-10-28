@@ -51,3 +51,6 @@ TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
