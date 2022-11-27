@@ -35,12 +35,6 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys"
-
 # RiceDroid Stuffs
 RICE_MAINTAINER := ZHANtech™
 RICE_DEVICE := tissot
@@ -65,3 +59,6 @@ TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 # Compiler will only build GMS playstore services, its dependencies, and Gboard app.
 # package type will change from PIXEL/GMS -> CORE
 TARGET_CORE_GMS := true
+
+# Spoof build description/fingerprint as pixel device
+TARGET_USE_PIXEL_FINGERPRINT := true
