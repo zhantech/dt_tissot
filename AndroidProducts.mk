@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_tissot.mk
+    $(LOCAL_DIR)/qassa_tissot.mk
 COMMON_LUNCH_CHOICES := \
-    nad_tissot-user \
-    nad_tissot-userdebug \
-    nad_tissot-eng
+    qassa_tissot-user \
+    qassa_tissot-userdebug \
+    qassa_tissot-eng
