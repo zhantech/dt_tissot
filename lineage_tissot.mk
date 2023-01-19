@@ -46,6 +46,10 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Camera
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_BUILD_APERTURE_CAMERA := true
+
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
