@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2018 The octaviOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tissot.mk
+    $(LOCAL_DIR)/octavi_tissot.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tissot-user \
-    lineage_tissot-userdebug \
-    lineage_tissot-eng
+    octavi_tissot-user \
+    octavi_tissot-userdebug \
+    octavi_tissot-eng

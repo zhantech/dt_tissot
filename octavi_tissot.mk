@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 # Inherit some common RiceDroid stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
@@ -35,19 +35,23 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# RiceDroid Stuffs
-RICE_MAINTAINER := ZHANtech™
-RICE_DEVICE := tissot
 TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_AOSP_CLOCK := true
-SUSHI_BOOTANIMATION := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_SUPPORTS_QUICK_TAP := true
+
+OCTAVI_MAINTAINER := ZHANtech™
+PRODUCT_SYSTEM_NAME := tissot
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
 # Spoof build description/fingerprint as pixel device
 TARGET_USE_PIXEL_FINGERPRINT := true
+
+# SOC
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.soc.model=SD625

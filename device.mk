@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-    GalleryGoPrebuilt
+    GalleryGoPrebuilt \
+    GrapheneCamera
 
 # Ramdisk
 PRODUCT_PACKAGES += \
