@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_tissot.mk
+    $(LOCAL_DIR)/arrow_tissot.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_tissot-user \
-    nad_tissot-userdebug \
-    nad_tissot-eng
+    arrow_tissot-user \
+    arrow_tissot-userdebug \
+    arrow_tissot-eng
